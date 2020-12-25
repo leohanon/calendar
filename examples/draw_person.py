@@ -27,7 +27,7 @@ try:
     epd.Clear()
     
     #display 4Gra bmp
-    Himage = Image.open(os.path.join(PICDIR, '4in2_Scale_1.bmp'))
+    Himage = Image.open(os.path.join(PICDIR, 'test.bmp'))
     epd.display_4Gray(epd.getbuffer_4Gray(Himage))
     time.sleep(4)
     
